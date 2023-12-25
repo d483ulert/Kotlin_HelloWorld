@@ -18,5 +18,11 @@ fun main(){
     }catch (e: Exception){
         println(e.message)
     }
+
+
+    val itema = mutableListOf(1,2,3,5,6)
+    itema.add(6)
+
+    println(itema)
 }
 
